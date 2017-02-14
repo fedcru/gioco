@@ -1,5 +1,3 @@
-var config      = require('./config.json');
-
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var reload      = browserSync.reload;
@@ -23,8 +21,9 @@ gulp.task('browser-sync', function() {
     //initialize browsersync
     browserSync.init(files, {
     //browsersync with a php server
-    proxy: config.proxy,
-    notify: false
+    server: {
+        baseDir: "./"
+      }
     });
 });
 

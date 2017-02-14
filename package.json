@@ -1,5 +1,5 @@
 {
-  "name": "striking-template",
+  "name": "gioco",
   "version": "1.0.0",
   "description": "ciao",
   "main": "gulpfile.js",
@@ -19,7 +19,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "fede",
   "license": "ISC",
   "repository": {
     "type": "git",
